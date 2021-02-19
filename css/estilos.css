@@ -1,60 +1,34 @@
-@media (max-width: 574px) {
-    body{
-        font-size: 12px !important;
-    }
 
-    h1{
-        font-size: 30px !important;
-    }
-
-    i{
-        font-size: 20px !important;
-    }
+h1 {
+    font-size: 45px;
 }
 
-@media (orientation: portrait) {
-    body{
-        background-image: url(../img/fondo-contacto-mobile.png);
-    }
+.form-control, .form-control:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0%;
 }
 
-@media (orientation: landscape) {
-    body{
-        background-image: url(../img/fondo-contacto.png);
-    }
+.form-control input[type=file] button {
+    border-radius: 120px;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+tbody a i {
+    color: white;
+    font-size: 13px;
 }
 
-h1 a{
-    color: #e20000;
-    text-decoration: none;
+tbody a .fa-edit {
+    background-color: rgb(0, 170, 170);
 }
 
-h1 a:hover{
-    color: blueviolet;
-    text-decoration: none;
+tbody a .fa-trash-alt {
+    background-color: rgb(197, 48, 48);
 }
 
-button{
-    background-color: #e20000 !important;
-    color: white !important;
-}
-
-button:hover{
-    background-color: blueviolet !important;
-}
-
-i{
-    color: blueviolet;
-}
-
-i:hover{
-    color: #e20000;
+tbody td a, tbody td a:hover {
+    color: black;
+    text-decoration-line: none;
 }
